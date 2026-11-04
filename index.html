@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AEM Portfolio | Арапбаев Элжан</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-inner">
+        <a href="#" class="logo">
+          <div class="logo-icon">A</div>
+          <div class="logo-text">
+            <strong>AEM</strong>
+            <span>portfolio</span>
+          </div>
+        </a>
+
+        <div class="header-controls">
+          <button
+            class="theme-toggle"
+            id="themeToggle"
+            aria-label="Сменить тему"
+          >
+            <span class="theme-icon">☀️</span>
+          </button>
+          <button class="burger" id="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+
+        <nav class="nav" id="nav">
+          <a href="#home" class="active">Home</a>
+          <a href="#skills">Skills</a>
+          <a href="#about">About me</a>
+          <a href="#contact">Contact me</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero reveal" id="home">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="subtitle">Junior frontend developer</p>
+            <h1>Арапбаев Элжан</h1>
+            <p class="description">
+              Студент колледжа «Ала-Тоо» по специальности «Программное
+              обеспечение». Фокусируюсь на frontend, практикую HTML, CSS,
+              JavaScript и Git, а вне учебы — на спорте и коммуникации.
+            </p>
+
+            <div class="hero-badges">
+              <div class="badge">
+                <span class="badge-label">УЧЕБА</span>
+                <span class="badge-value">Колледж «Ала-Тоо», 2 курс</span>
+              </div>
+              <div class="badge">
+                <span class="badge-label">СТЕК</span>
+                <span class="badge-value">HTML, CSS, JavaScript, Git</span>
+              </div>
+              <div class="badge">
+                <span class="badge-label">УРОВЕНЬ</span>
+                <span class="badge-value">Junior frontend</span>
+              </div>
+            </div>
+
+            <div class="hero-actions">
+              <a href="#contact" class="btn btn-primary">Связаться</a>
+              <a href="#skills" class="btn btn-outline">Учебный путь</a>
+            </div>
+          </div>
+
+          <div class="hero-image-wrapper">
+            <img
+              src="./img/photoElhan.svg"
+              alt="Фото разработчика"
+              class="hero-img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="about">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label">ABOUT ME</span>
+            <h2>Обо мне</h2>
+          </div>
+          <div class="about-grid">
+            <div class="about-text">
+              <p>
+                Я учусь на втором курсе колледжа «Ала-Тоо» по специальности
+                «Программное обеспечение» и создаю базу для своей будущей
+                карьеры в IT. Моя жизнь — это постоянное движение между кодингом
+                и спортом. На парах я погружаюсь в мир разработки, алгоритмов и
+                написания кода, прокачивая логику и решая сложные технические
+                задачи. После учебы я полностью переключаюсь на футбол. Игра на
+                поле дает мне мощный заряд энергии, тренирует выносливость и
+                учит быстро реагировать в любых ситуациях. Такой динамичный ритм
+                помогает мне оставаться в тонусе, круто совмещать спорт с
+                программированием и уверенно двигаться к своим целям.
+              </p>
+              <div class="about-badges">
+                <div class="badge-small">
+                  <span>СПОРТ</span>
+                  <p>Футбол и физическая форма</p>
+                </div>
+                <div class="badge-small">
+                  <span>КОММУНИКАЦИЯ</span>
+                  <p>Очень коммуникативный и открытый</p>
+                </div>
+                <div class="badge-small">
+                  <span>ПРАКТИКА</span>
+                  <p>Учебные проекты и пет-проекты</p>
+                </div>
+              </div>
+            </div>
+            <div class="about-image-wrapper">
+              <img src="./img/photoElhan.svg" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section bg-card reveal" id="skills">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label">SKILLS</span>
+            <h2>Junior skills</h2>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="skill-icon">HTML</div>
+              <h3>HTML</h3>
+              <p>Структура страниц, семантика и базовая верстка.</p>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon">CSS</div>
+              <h3>CSS</h3>
+              <p>Стили, адаптивность и базовые интерфейсные решения.</p>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon">JS</div>
+              <h3>JavaScript</h3>
+              <p>Базовый скриптинг, взаимодействия и логика на клиенте.</p>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon">Git</div>
+              <h3>Git</h3>
+              <p>Базовое управление версиями и работа с репозиториями.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="path">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label">LEARNING PATH</span>
+            <h2>Учебный путь</h2>
+          </div>
+          <div class="path-grid">
+            <div class="path-text">
+              <p class="path-desc">
+                Основной фокус сейчас — колледж «Ала-Тоо» и специальность
+                «Программное обеспечение». Параллельно изучаю
+                фронтенд-технологии, практикую работу с кодом и постепенно
+                наращиваю базу для будущей карьеры в IT.
+              </p>
+              <ul class="path-list">
+                <li>
+                  Колледж «Ала-Тоо», специальность «Программное обеспечение»
+                </li>
+                <li>Основной стек: HTML, CSS, JavaScript, Git</li>
+                <li>
+                  Практика: учебные проекты, пет-проекты и самостоятельные
+                  задачи
+                </li>
+              </ul>
+            </div>
+            <div class="path-sidebar">
+              <h3>
+                Сейчас я фокусируюсь на фронтенде и постепенно расширяю стек
+              </h3>
+              <p>
+                Основная цель — получить прочную базу и перейти к реальным
+                проектам, сохраняя баланс между учебой, практикой и спортом.
+              </p>
+              <div class="sidebar-stats">
+                <div class="stat">
+                  <span>Уровень</span>
+                  <strong>Junior</strong>
+                </div>
+                <div class="stat">
+                  <span>Стек</span>
+                  <strong>Frontend</strong>
+                </div>
+                <div class="stat">
+                  <span>Фокус</span>
+                  <strong>Практика</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section bg-card reveal" id="approach">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label">APPROACH</span>
+            <h2>Подход к работе</h2>
+          </div>
+          <div class="grid-3">
+            <div class="card">
+              <div class="card-number">01</div>
+              <h3>Коммуникация и четкие задачи</h3>
+              <p>
+                Я быстро нахожу общий язык, задаю уточняющие вопросы и работаю с
+                задачами в понятной и прозрачной форме.
+              </p>
+            </div>
+            <div class="card">
+              <div class="card-number">02</div>
+              <h3>Постепенное наращивание навыков</h3>
+              <p>
+                Я не пытаюсь охватить всё сразу: фокусируюсь на базовых
+                технологиях, закрепляю их практикой и постепенно расширяю стек.
+              </p>
+            </div>
+            <div class="card">
+              <div class="card-number">03</div>
+              <h3>Баланс между кодом и спортом</h3>
+              <p>
+                Спорт помогает поддерживать концентрацию, выносливость и
+                энергию, а учеба и практика — оставаться в профессиональном
+                ритме.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="directions">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label">DEVELOPMENT DIRECTIONS</span>
+            <h2>Направления развития</h2>
+          </div>
+          <div class="grid-3">
+            <div class="card">
+              <div class="card-number">01</div>
+              <h3>Глубже осваивать JavaScript и фронтенд</h3>
+              <p>
+                Следующий этап — более глубокое понимание JavaScript,
+                интерактивных компонентов и современных фронтенд-практик.
+              </p>
+            </div>
+            <div class="card">
+              <div class="card-number">02</div>
+              <h3>Участвовать в пет-проектах и учебных задачах</h3>
+              <p>
+                Практика на реальных задачах помогает закреплять теоретические
+                знания и постепенно набирать опыт решения задач.
+              </p>
+            </div>
+            <div class="card">
+              <div class="card-number">03</div>
+              <h3>Сохранять баланс между учебой и спортом</h3>
+              <p>
+                Стабильный ритм помогает поддерживать концентрацию, энергию и
+                мотивацию как в учебе, так и в практике.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section bg-card reveal" id="contact">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label">CONTACT ME</span>
+            <h2>Связаться со мной</h2>
+          </div>
+          <div class="contact-grid">
+            <form class="contact-form" id="contactForm">
+              <div class="input-group">
+                <label>Имя</label>
+                <input type="text" placeholder="Ваше имя" required />
+              </div>
+              <div class="input-group">
+                <label>Телефон</label>
+                <input type="tel" placeholder="+996 000 000 000" required />
+              </div>
+              <div class="input-group">
+                <label>Email</label>
+                <input type="email" placeholder="email@example.com" required />
+              </div>
+              <div class="input-group">
+                <label>Сообщение</label>
+                <textarea
+                  rows="4"
+                  placeholder="Расскажите о проекте или задаче"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Отправить</button>
+              <div class="success-msg" id="successMsg">
+                Сообщение успешно отправлено!
+              </div>
+            </form>
+
+            <div class="contact-info">
+              <span class="section-label">CONTACT INFO</span>
+              <h2>Контакты</h2>
+
+              <div class="info-block">
+                <div class="info-item">
+                  <span>Email</span>
+                  <a href="mailto:aem@gmail.com">aem@gmail.com</a>
+                </div>
+                <div class="info-item">
+                  <span>Телефон</span>
+                  <a href="tel:+996444333222">+996 444 333 222</a>
+                </div>
+              </div>
+
+              <div class="socials">
+                <a href="#" class="social-link"
+                  ><span class="icon">📷</span> Instagram</a
+                >
+                <a href="#" class="social-link"
+                  ><span class="icon">in</span> LinkedIn</a
+                >
+                <a href="#" class="social-link"
+                  ><span class="icon">🏀</span> Dribbble</a
+                >
+                <a href="#" class="social-link"
+                  ><span class="icon">Be</span> Behance</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div class="footer-left">
+          <a href="#" class="logo">
+            <div class="logo-icon">A</div>
+            <div class="logo-text">
+              <strong>AEM</strong>
+              <span>portfolio</span>
+            </div>
+          </a>
+          <div class="footer-socials">
+            <a href="#">📷</a>
+            <a href="#">in</a>
+            <a href="#">🏀</a>
+            <a href="#">Be</a>
+          </div>
+          <p class="copyright">© 2026 AEM Portfolio</p>
+        </div>
+
+        <div class="footer-right">
+          <nav class="footer-nav">
+            <a href="#home">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#about">About me</a>
+            <a href="#contact">Contact me</a>
+          </nav>
+          <div class="footer-contacts">
+            <a href="mailto:aem@gmail.com">✉️ aem@gmail.com</a>
+            <a href="tel:+996444333222">📞 +996 444 333 222</a>
+          </div>
+          <p class="footer-subtitle">Junior frontend developer</p>
+        </div>
+      </div>
+    </footer>
+
+    <button id="backToTop" class="back-to-top" aria-label="Наверх">↑</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
